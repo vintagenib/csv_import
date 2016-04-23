@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     csv_importer (0.0.1)
-      rails (~> 4.2.6)
+      rails
 
 GEM
   remote: https://rubygems.org/
