@@ -1,0 +1,7 @@
+{
+  "cmd": "/Users/mark/.rbenv/shims/bundle",
+  "name": "rspec",
+  "sh": true,
+  "args": ["exec","rspec"],
+  "keymap": "cmd-ctrl-r"
+}

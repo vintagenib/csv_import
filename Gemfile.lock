@@ -45,6 +45,11 @@ GEM
     arel (6.0.3)
     builder (3.2.2)
     concurrent-ruby (1.0.1)
+    delayed_job (4.0.6)
+      activesupport (>= 3.0, < 5.0)
+    delayed_job_active_record (4.0.3)
+      activerecord (>= 3.0, < 5.0)
+      delayed_job (>= 3.0, < 4.1)
     diff-lcs (1.2.5)
     erubis (2.7.0)
     globalid (0.3.6)
@@ -125,6 +130,7 @@ PLATFORMS
 
 DEPENDENCIES
   csv_importer!
+  delayed_job_active_record
   rspec-rails
   sqlite3
 
