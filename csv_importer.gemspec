@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Mark Whitcher"]
   s.email       = ["mark@anidea.co"]
   s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of CsvImporter."
-  s.description = "TODO: Description of CsvImporter."
+  s.summary     = "Imports a CSV file as ActiveRecord instances"
+  s.description = "Imports a CSV file as ActiveRecord instances"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
