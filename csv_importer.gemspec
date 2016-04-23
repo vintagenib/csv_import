@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = CSVImporter::VERSION
   s.authors     = ["Mark Whitcher"]
   s.email       = ["mark@anidea.co"]
-  s.homepage    = "TODO"
+  s.homepage    = "http://markwhitcher.com"
   s.summary     = "Imports a CSV file as ActiveRecord instances"
   s.description = "Imports a CSV file as ActiveRecord instances"
   s.license     = "MIT"
