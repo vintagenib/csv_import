@@ -9,14 +9,15 @@ Gem::Specification.new do |s|
   s.version     = CSVImporter::VERSION
   s.authors     = ["Mark Whitcher"]
   s.email       = ["mark@anidea.co"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of CsvImporter."
-  s.description = "TODO: Description of CsvImporter."
+  s.homepage    = "http://markwhitcher.com"
+  s.summary     = "Imports a CSV file as ActiveRecord instances"
+  s.description = "Imports a CSV file as ActiveRecord instances"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
-  s.add_dependency "rails", "~> 4.2.6"
+  s.add_dependency "rails", ">= 2.2"
+  s.add_dependency 'delayed_job_active_record'
 
   s.add_development_dependency "rspec-rails"
   s.add_development_dependency "sqlite3"
